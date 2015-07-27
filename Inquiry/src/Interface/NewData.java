@@ -79,6 +79,9 @@ public class NewData extends JFrame {
 		textField.setBounds(301, 96, 86, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("\u05E9\u05DD \u05D4\u05D7\u05D9\u05D9\u05DC");
+		lblNewLabel.setBounds(355, 179, 115, 14);
+		contentPane.add(lblNewLabel);
 	}
-	
 }
